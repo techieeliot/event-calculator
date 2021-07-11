@@ -1,5 +1,8 @@
 # Event Calculator using React
 
+Took this prompt and built a working solution in App.js
+https://gist.github.com/bbrock25/72745a61d04a26d5db9f25b782e403e7
+
 ## Nano React App Default Javascript Template
 
 The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
