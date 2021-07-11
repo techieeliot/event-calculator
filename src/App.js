@@ -21,12 +21,13 @@ export default () => {
     axios.get('https://api.github.com/users/danielspofford/events')
       .then(response => {
         let scores = []
+        console.log(response.data)
         // create an array of the response data
         response.data.map(item => {
           let score;
           // find the type and assign a score then add that score to an array
           switch (item.type) {
-            case 'PullRequest':
+            case 'PullRequestEvent':
               score = 5
               break;
             case 'ForkEvent':
